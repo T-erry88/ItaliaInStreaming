@@ -41,7 +41,7 @@ class StreamingCommunity(
     override var lang: String = "it",
     private val showLogo: Boolean = true
 ) : MainAPI() {
-    private val siteRootUrl = "https://streaming-community.ninja"
+    private val siteRootUrl = "https://streaming-community.ninja/"
     private val cdnHost = "cdn.streaming-community.ninja"
     private var inertiaVersion = ""
     private var decodedXsrfToken = ""
